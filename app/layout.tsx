@@ -17,9 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${oswald.className} bg-colorBGs bg-[#020617]`}>
-        {children}
-      </body>
+      <body className={`${oswald.className} bg-background`}>{children}</body>
     </html>
   );
 }
