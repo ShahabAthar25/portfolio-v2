@@ -3,7 +3,8 @@ import profilePic from "@/assets/ProfilePic.jpeg";
 
 export default function About(): JSX.Element {
   return (
-    <div className="bg-shade-background py-4 pl-8 pr-4">
+    <section className="bg-shade-background py-4 pl-8 pr-4">
+      <p className="text-secondary text-sm">About Me</p>
       <h1 className="text-text text-[26px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent drop-shadow-glow">
         Who I Am
       </h1>
@@ -33,6 +34,6 @@ export default function About(): JSX.Element {
         numquam inventore distinctio quas libero non laudantium laboriosam
         dignissimos nihil, odit cumque ipsa illo qui, mollitia maiores!
       </p>
-    </div>
+    </section>
   );
 }
