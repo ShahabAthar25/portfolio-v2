@@ -24,7 +24,7 @@ export default function Navbar(): JSX.Element {
               Shahab Athar
             </h1>
           </div>
-          <DrawerTrigger>
+          <DrawerTrigger className="outline-none">
             <div className="p-1 cursor-pointer hover:bg-gray-700 rounded-lg duration-200 text-white outline-none">
               <CiMenuBurger className="text-3xl" />
             </div>
@@ -110,7 +110,6 @@ export default function Navbar(): JSX.Element {
             </div>
           </div>
         </DrawerContent>
-        )
       </Drawer>
     </nav>
   );
