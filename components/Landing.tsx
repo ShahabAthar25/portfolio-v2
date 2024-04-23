@@ -7,7 +7,6 @@ export default function Landing(): JSX.Element {
     "Frontend Developer",
     "Backend Developer",
     "Solutions Architect",
-    "Cyber Security Specialist",
   ];
 
   return (

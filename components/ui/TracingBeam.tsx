@@ -114,7 +114,12 @@ export const TracingBeam = ({
               y1={y1} // set y1 for gradient
               y2={y2} // set y2 for gradient
             >
-              <stop stopColor="#5eff3d" stopOpacity="0"></stop>
+              <stop
+                width="100vw"
+                height="100vh"
+                stopColor="#5eff3d"
+                stopOpacity="0"
+              ></stop>
               <stop stopColor="#5eff3d"></stop>
               <stop offset="0.325" stopColor="#35ce27"></stop>
               <stop offset="1" stopColor="#35ce27" stopOpacity="0"></stop>

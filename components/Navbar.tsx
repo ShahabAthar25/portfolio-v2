@@ -20,12 +20,12 @@ export default function Navbar(): JSX.Element {
       <Drawer open={open} onOpenChange={setOpen}>
         <div className="px-5 py-7 flex justify-between items-center bg-transparent">
           <div>
-            <h1 className="font-oswald font-bold text-[22px] text-text select-none cursor-default">
+            <h1 className="font-oswald font-bold text-[22px] text-text select-none cursor-default drop-shadow-glow shadow-2xl">
               Shahab Athar
             </h1>
           </div>
           <DrawerTrigger className="outline-none">
-            <div className="p-1 cursor-pointer hover:bg-gray-700 rounded-lg duration-200 text-white outline-none">
+            <div className="p-1 cursor-pointer hover:bg-gray-700 rounded-lg duration-200 text-white outline-none drop-shadow-glow shadow-2xl">
               <CiMenuBurger className="text-3xl" />
             </div>
           </DrawerTrigger>
