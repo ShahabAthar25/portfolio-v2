@@ -1,5 +1,14 @@
-import ProfilePic from "@/assets/ProfilePic.jpeg";
-import Card from "./Card";
+import {
+  ComputerVisionProjects,
+  CryptoCurrenciesProjects,
+  CustomProgrammingLanguages,
+  DataScienceProjects,
+  DjangoProject,
+  MERNStackProject,
+  PHPVanillaProject,
+  ReactNextProjects,
+} from "@/data/Projects";
+import ProjectSection from "./ProjectSection";
 
 export default function Projects(): JSX.Element {
   return (
@@ -8,15 +17,38 @@ export default function Projects(): JSX.Element {
       <h1 className="text-text text-[26px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent drop-shadow-glow">
         My Work
       </h1>
-      <section>
-        <p className="text-right text-secondary text-sm drop-shadow-glow">
-          Web Development (React JS)
-        </p>
-        <div className="grid grid-cols-1 gaps-4">
-          <Card name="Gmail Clone" image={ProfilePic} index={0} align="left" />
-          <Card name="Gmail Clone" image={ProfilePic} index={1} align="right" />
-        </div>
-      </section>
+      <ProjectSection
+        title="Web Development (MERN)"
+        projects={MERNStackProject}
+      />
+      <ProjectSection
+        title="Web Development (React JS/Next JS)"
+        projects={ReactNextProjects}
+      />
+      <ProjectSection
+        title="Web Development (Django)"
+        projects={DjangoProject}
+      />
+      <ProjectSection
+        title="Web Development (PHP)"
+        projects={PHPVanillaProject}
+      />
+      <ProjectSection
+        title="Computer Vision (Python)"
+        projects={ComputerVisionProjects}
+      />
+      <ProjectSection
+        title="Data Science (Python)"
+        projects={DataScienceProjects}
+      />
+      <ProjectSection
+        title="Crypto Currencies (Python)"
+        projects={CryptoCurrenciesProjects}
+      />
+      <ProjectSection
+        title="Custom Programming Languages"
+        projects={CustomProgrammingLanguages}
+      />
     </section>
   );
 }
