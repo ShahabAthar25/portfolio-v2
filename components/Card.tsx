@@ -2,6 +2,7 @@ import Image from "next/image";
 import { CardBody, CardContainer, CardItem } from "./ui/Card";
 import CardProp from "@/types/Card";
 import { cn } from "@/lib/utils";
+import { useEffect } from "react";
 
 export default function Card({
   name,

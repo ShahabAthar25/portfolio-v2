@@ -1,4 +1,5 @@
 import { StaticImageData } from "next/image"
+import { Dispatch, SetStateAction } from "react"
 
 export interface IProject {
     name: string,
@@ -9,5 +10,7 @@ export interface IProject {
 
 export interface IProjectSection {
     title: string,
-    projects: IProject[]
+    projects: IProject[],
+    index: number,
+    setIndex: Dispatch<SetStateAction<number>>
 }

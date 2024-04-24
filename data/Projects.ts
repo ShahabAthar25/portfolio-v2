@@ -75,13 +75,19 @@ export const PHPVanillaProject: IProject[] = [
 
 export const ComputerVisionProjects: IProject[] = [
     {
-        name: "Gesture Volume Control",
+        name: "Speech Assistant",
         image: ProfilePic,
         github: "https://github.com/ShahabAthar25/google-docs-mern",
         live: null
     },
     {
-        name: "Hand Tracker",
+        name: "Face Recognition",
+        image: ProfilePic,
+        github: "https://github.com/ShahabAthar25/google-docs-mern",
+        live: null
+    },
+    {
+        name: "Gesture Volume Control",
         image: ProfilePic,
         github: "https://github.com/ShahabAthar25/google-docs-mern",
         live: null
@@ -93,7 +99,13 @@ export const ComputerVisionProjects: IProject[] = [
         live: null
     },
     {
-        name: "Speech Assistant",
+        name: "Smile Detertor",
+        image: ProfilePic,
+        github: "https://github.com/ShahabAthar25/google-docs-mern",
+        live: null
+    },
+    {
+        name: "Hand Tracker",
         image: ProfilePic,
         github: "https://github.com/ShahabAthar25/google-docs-mern",
         live: null
